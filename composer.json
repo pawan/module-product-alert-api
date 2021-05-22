@@ -1,0 +1,25 @@
+{
+  "name": "pawan/module-product-alert-api",
+  "description": "Api Support for Product Alert",
+  "version": "1.0.0",
+  "type": "magento2-module",
+  "keywords": ["magento2","Api","Product Alert"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pawan Kumar Parmar",
+      "email": "mail@pawan.info"
+    }
+  ],
+  "support": {
+        "issues": "https://github.com/pawan/module-product-alert-api/issues"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Pawan\\ProductAlertApi\\": ""
+    }
+  }
+}

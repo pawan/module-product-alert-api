@@ -22,4 +22,26 @@
         </data>
     </route>
     <!-- Delete product stock alert ends-->
+    <!-- Add product price alert start-->
+    <route url="/V1/productalertprice/add/:productId" method="POST">
+        <service class="Pawan\ProductAlertApi\Api\ProductAlertManagementInterface" method="addProductAlertPrice"/>
+        <resources>
+            <resource ref="self" />
+        </resources>
+        <data>
+            <parameter name="customerId" force="true">%customer_id%</parameter>
+        </data>
+    </route>
+    <!-- Add product price alert ends-->
+    <!-- Delete product price alert start-->
+    <route url="/V1/productalertprice/delete/:productId" method="POST">
+        <service class="Pawan\ProductAlertApi\Api\ProductAlertManagementInterface" method="deleteProductAlertPrice"/>
+        <resources>
+            <resource ref="self" />
+        </resources>
+        <data>
+            <parameter name="customerId" force="true">%customer_id%</parameter>
+        </data>
+    </route>
+    <!-- Delete product price alert ends-->
 </routes>

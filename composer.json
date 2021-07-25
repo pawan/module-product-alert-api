@@ -1,9 +1,8 @@
 {
   "name": "pawan/module-product-alert-api",
-  "description": "Api Support for Product Alert",
-  "version": "1.0.2",
+  "description": "Api Support for Product and Price Alert",
   "type": "magento2-module",
-  "keywords": ["magento2","Api","Product Alert"],
+  "keywords": ["Magento2","Api","Product Alert", "Price Alert"],
   "license": "MIT",
   "authors": [
     {

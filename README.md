@@ -5,6 +5,14 @@ We have define our API end point in `etc/webapi.xml` file. For Add product we ha
 
 For Accessing above API You need Customer token, which can be retrieved by `http://{Magento2Root}/rest/V1/integration/customer/token`
 
+## Composer Install:
+
+```
+composer require pawan/module-product-alert-api
+php bin/magento setup:upgrade
+php bin/magento cache:flush
+```
+
 ### Where:
 
 * 123 is the product ID
